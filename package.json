@@ -1,0 +1,29 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "description": "a simple file Manager",
+  "main": "index.js",
+  "bin": {
+    "fm": "bin/file-manager.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "cli",
+    "file manager"
+  ],
+  "author": "qichangjun",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^2.1.0",
+    "chalk": "^2.3.0",
+    "commander": "^2.11.0",
+    "rimraf": "^2.6.2",
+    "shelljs": "^0.7.8"
+  }
+}
