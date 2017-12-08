@@ -9,6 +9,14 @@ const config = require('../lib/config');
 const manager = new Manager(config,logger)
 program
     .version(PackageProperty.version);
+
+program.on('--help', function () {
+    console.log('  Examples:')
+    console.log('')
+    console.log('    $ fm find test -T directory')
+    console.log('    $ fm delete test -P ~/Desktop')
+    console.log('')
+    })
 program
     .command('find [name]')
     .description('find files filter with the specified name')
