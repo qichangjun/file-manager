@@ -4,7 +4,6 @@
 ## Features
 - [x] search file,folder
 - [x] delete file,folder
-- [ ] restore ssh keys
 
 
 
